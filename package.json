@@ -1,7 +1,11 @@
 {
   "name": "cursinho-app",
   "version": "1.0.0",
-  "main": "index.jsx",
+  "scripts": {
+    "dev": "vite",                  // para rodar localmente: npm run dev
+    "build": "vite build",          // para o Vercel (npm run build)
+    "preview": "vite preview"       // preview pós-build (opcional)
+  },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
@@ -9,9 +13,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1"
-  },
-  "scripts": {
-    "start": "vite"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
