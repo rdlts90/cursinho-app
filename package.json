@@ -1,10 +1,11 @@
 {
   "name": "cursinho-app",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",                  // para rodar localmente: npm run dev
-    "build": "vite build",          // para o Vercel (npm run build)
-    "preview": "vite preview"       // preview pós-build (opcional)
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
